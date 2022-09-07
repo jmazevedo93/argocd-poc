@@ -7,6 +7,12 @@ resources:
 namespace: argocd-poc
 
 images:
+<<<<<<< HEAD
 - name: argocd-poc
   newName: vgalvaom/argocd-poc
   newTag: 63d354e39d44742f6250e694fde2ef003734ad4d
+=======
+- name: goapp
+  newName: vgalvaom/argocd-poc
+  newTag: ec0d2b437fe31e8cec702c90928f014cf22ed0a1
+>>>>>>> 55c784dc5a6b955bed9e02d360f6af612eb1e971
