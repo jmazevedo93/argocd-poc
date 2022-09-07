@@ -9,4 +9,4 @@ namespace: argocd-poc
 images:
 - name: goapp
   newName: vgalvaom/argocd-poc
-  newTag: ec0d2b437fe31e8cec702c90928f014cf22ed0a1
+  newTag: 6ea86f020e883ab627dcb13478ff257f9b52c30c
