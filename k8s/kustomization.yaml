@@ -10,3 +10,6 @@ images:
 - name: argocd-poc
   newName: vgalvaom/argocd-poc
   newTag: 63d354e39d44742f6250e694fde2ef003734ad4d
+- name: goapp
+  newName: vgalvaom/argocd-poc
+  newTag: 97ae3027cd8bce980f5fcdec331a2511928e8261
