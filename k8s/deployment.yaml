@@ -1,18 +1,18 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: goapp
+  name: argocd-poc
 spec:
   selector:
     matchLabels:
-      app: goapp
+      app: argocd-poc
   template:
     metadata:
       labels:
-        app: goapp
+        app: argocd-poc
     spec:
       containers:
-      - name: goapp
-        image: goapp
+      - name: argocd-poc
+        image: argocd-poc
         ports:
         - containerPort: 8080

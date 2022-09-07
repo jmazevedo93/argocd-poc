@@ -4,9 +4,9 @@ resources:
 - deployment.yaml
 - service.yaml
 
-namespace: goapp
+namespace: argocd-poc
 
 images:
-- name: goapp
-  newName: wesleywillians/argocd-fullcycle
+- name: argocd-poc
+  newName: vgalvaom/argocd-poc
   newTag: 63d354e39d44742f6250e694fde2ef003734ad4d

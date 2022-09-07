@@ -15,7 +15,7 @@ jobs:
         with:
           username: vgalvaom
           password: ${{ secrets.DOCKER_PASSWORD }}
-          repository: vgalvaom/argocd-fullcycle
+          repository: vgalvaom/argocd-poc
           tags: ${{ github.sha }}, latest     
 
   deploy:
