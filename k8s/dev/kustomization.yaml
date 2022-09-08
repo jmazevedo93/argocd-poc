@@ -4,8 +4,8 @@ kind: Kustomization
 resources:
 - ../base
 
-patchesStrategicMerge:  
-  - ./service-patch.yaml
+patchesStrategicMerge:
+- service-patch.yaml
 
 namespace: argocd-poc-dev
 
