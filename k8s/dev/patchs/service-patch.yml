@@ -1,6 +1,0 @@
-spec:
-  selector:
-    app: argocd-poc
-  ports:
-  - port: 8070
-    targetPort: 8070
