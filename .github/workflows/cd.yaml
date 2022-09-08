@@ -31,9 +31,15 @@ jobs:
         with:
           kustomize_version: v3.6.1
 
-      - name: update k8s
+      - name: update k8s Prod
         run: |
           cd k8s/prod
+          kustomize edit set image argocd-poc=vgalvaom/argocd-poc:${{ github.sha }}
+          cat kustomization.yaml
+
+      - name: update k8s Dev
+        run: |
+          cd k8s/dev
           kustomize edit set image argocd-poc=vgalvaom/argocd-poc:${{ github.sha }}
           cat kustomization.yaml
 

@@ -1,0 +1,11 @@
+spec:
+  template:
+    metadata:
+      labels:
+        app: argocd-poc
+    spec:
+      containers:
+      - name: argocd-poc
+        image: argocd-poc
+        ports:
+        - containerPort: 8070

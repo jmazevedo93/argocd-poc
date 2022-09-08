@@ -1,0 +1,16 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+bases:
+  - ../base
+
+patchesStrategicMerge:
+  - ./patchs/deployment-patch.yaml
+  - ./patchs/service-patch.yaml
+
+namespace: argocd-poc-dev
+
+images:
+- name: argocd-poc
+  newName: vgalvaom/argocd-poc
+  newTag: 69b8094563c5712125995f96498655ffd18967c1
