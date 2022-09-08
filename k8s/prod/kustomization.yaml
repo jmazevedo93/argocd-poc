@@ -1,15 +1,14 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 
-bases:
-- ../base
 
 resources:
 - service.yml
+- ../base
 
 namespace: argocd-poc
 
 images:
 - name: argocd-poc
   newName: vgalvaom/argocd-poc
-  newTag: a2e94ca9657933bf3e299683496ee7d97436ba4e
+  newTag: 12e10900122147022b2260e77d6fab4600ca271f
