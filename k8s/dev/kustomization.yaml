@@ -5,7 +5,7 @@ resources:
 - ../base
 
 patchesStrategicMerge:
-- service-patch.yaml
+- service-patch.yml
 
 namespace: argocd-poc-dev
 
