@@ -13,4 +13,3 @@ images:
 - name: argocd-poc
   newName: vgalvaom/argocd-poc
   newTag: a2e94ca9657933bf3e299683496ee7d97436ba4e
-
