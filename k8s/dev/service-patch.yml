@@ -7,4 +7,5 @@ spec:
     app: argocd-poc
   ports:
   - port: 8070
+    name: port-dev
     targetPort: 8090
