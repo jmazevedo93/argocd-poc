@@ -5,6 +5,10 @@ COPY . .
 RUN CGO_ENABLED=0 go build -o server main.go
 
 FROM scratch
+
+EXPOSE 8181
+
 WORKDIR /app
 COPY --from=build /app/server .
 CMD ["./server"]
+
