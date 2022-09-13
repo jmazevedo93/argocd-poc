@@ -16,3 +16,6 @@ spec:
         image: argocd-poc
         ports:
         - containerPort: 8181
+        envFrom:
+            - configMapRef:
+                name: poc-argo-cm

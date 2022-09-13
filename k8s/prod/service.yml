@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: argocd-poc
+  name: argocd-poc-srv
 spec:
   type: NodePort
   selector:
