@@ -15,4 +15,4 @@ spec:
       - name: argocd-poc
         image: argocd-poc
         ports:
-        - containerPort: 8080
+        - containerPort: 8181
