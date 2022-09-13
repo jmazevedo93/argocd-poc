@@ -8,7 +8,9 @@ import (
 
 func main() {	
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
-		w.Write(strings.Join("# Hello ArgoCD # Env_HELLO_WORLD = ", os.Getenv("HELLO_WORLD")))		
+		env_hello := os.Getenv("HELLO_WORLD")
+		request_msg := strings.Join("# Hello ArgoCD # Env_HELLO_WORLD = ", env_hello)
+		w.Write([]byte(request_msg))		
 	})
 	http.ListenAndServe(":8181", nil)
 }
