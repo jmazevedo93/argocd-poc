@@ -6,7 +6,7 @@ resources:
 - service.yml
 - ../base
 
-namespace: argocd-poc-dev
+namespace: app-argocd-poc-dev
 
 images:
 - name: argocd-poc
