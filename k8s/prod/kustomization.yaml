@@ -11,4 +11,4 @@ namespace: argocd-poc
 images:
 - name: argocd-poc
   newName: vgalvaom/argocd-poc
-  newTag: 6ac98b70de900dedac2f99d922d73893fba0d7ac
+  newTag: a8e475a4437c2d0d0ae55fb1b73ae2b88bd63d8b
