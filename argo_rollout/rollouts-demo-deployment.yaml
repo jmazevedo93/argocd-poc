@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: rollouts-demo
-        image: argoproj/rollouts-demo:blue
+        image: argoproj/rollouts-demo
         ports:
         - containerPort: 8080
   minReadySeconds: 30
