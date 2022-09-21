@@ -8,6 +8,6 @@ resources:
 namespace: default
 
 images:
-- name: rollouts-demo
+- name: argoproj/rollouts-demo
   newName: argoproj/rollouts-demo
   newTag: blue
