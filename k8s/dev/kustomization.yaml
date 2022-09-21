@@ -12,4 +12,4 @@ namespace: app-argocd-poc-dev
 images:
 - name: argocd-poc
   newName: vgalvaom/argocd-poc
-  newTag: c701ba14f31d9a99035ecd86bc4b988f9d95c374
+  newTag: 818490af912e0d557115f2a8f8c749a2ec6cd70d
