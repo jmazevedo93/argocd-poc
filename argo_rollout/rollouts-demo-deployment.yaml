@@ -21,7 +21,7 @@ spec:
   revisionHistoryLimit: 2
   strategy:
     canary: #Indicates that the rollout should use the Canary strategy
-      maxSurge: "25%"
+      maxSurge: "50%"
       maxUnavailable: 0
       steps:
       - setWeight: 10
