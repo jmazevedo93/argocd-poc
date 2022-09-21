@@ -24,8 +24,8 @@ spec:
       maxSurge: "50%"
       maxUnavailable: 0
       steps:
-      - setWeight: 10
+      - setWeight: 30
       - pause:
           duration: 1h # 1 hour
-      - setWeight: 20
+      - setWeight: 50
       - pause: {} # pause indefinitely
