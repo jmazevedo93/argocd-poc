@@ -3,7 +3,7 @@ kind: Rollout
 metadata:
   name: rollouts-demo-deployment
 spec:
-  replicas: 4
+  replicas: 8
   selector:
     matchLabels:
       app: rollouts-demo
@@ -18,7 +18,7 @@ spec:
         ports:
         - containerPort: 8080
   minReadySeconds: 30
-  revisionHistoryLimit: 2
+  revisionHistoryLimit: 5
   strategy:
     canary: #Indicates that the rollout should use the Canary strategy
       maxSurge: "50%"
