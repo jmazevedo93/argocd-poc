@@ -10,4 +10,4 @@ namespace: default
 images:
 - name: argoproj/rollouts-demo
   newName: argoproj/rollouts-demo
-  newTag: purple
+  newTag: red
